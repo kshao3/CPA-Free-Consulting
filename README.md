@@ -4,7 +4,7 @@
 More than just a great reference, this website provides accounting, financial reporting, tax solutions and more to solve business challenges and set you up for long-term success. Offering access to ask unlimited questions answered by experienced CPAs with in-depth skills and credentials, $.com provides a flexible business model that gives you accurate information when you check them.
 
 # Partner: 
-Jiayi Gu
+Jiayi Gu,
 Kaijie Shao
 
 # Languages & Tools: 
