@@ -1,0 +1,19 @@
+2022-11-01 01:37:52.033  INFO 11312 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-01 01:39:09.221  INFO 10572 --- [main] com.lq.financial.FinancialApplication    : Starting FinancialApplication on J17Y with PID 10572 (D:\FinancialSystem\target\classes started by evagu in D:\FinancialSystem)
+2022-11-01 01:39:09.223  INFO 10572 --- [main] com.lq.financial.FinancialApplication    : No active profile set, falling back to default profiles: default
+2022-11-01 01:39:09.967  INFO 10572 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-01 01:39:09.969  INFO 10572 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-01 01:39:09.993  INFO 10572 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2022-11-01 01:39:10.477  INFO 10572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2022-11-01 01:39:10.493  INFO 10572 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-01 01:39:10.494  INFO 10572 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-11-01 01:39:10.585  INFO 10572 --- [main] o.a.c.c.C.[.[localhost].[/financial]     : Initializing Spring embedded WebApplicationContext
+2022-11-01 01:39:10.585  INFO 10572 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1322 ms
+2022-11-01 01:39:11.598  INFO 10572 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-11-01 01:39:11.664  INFO 10572 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-01 01:39:11.878  INFO 10572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path '/financial'
+2022-11-01 01:39:11.879  INFO 10572 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-11-01 01:39:11.894  INFO 10572 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-11-01 01:39:11.912  INFO 10572 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-11-01 01:39:12.025  INFO 10572 --- [main] com.lq.financial.FinancialApplication    : Started FinancialApplication in 3.268 seconds (JVM running for 3.686)
+2022-11-01 01:41:42.160  INFO 10572 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

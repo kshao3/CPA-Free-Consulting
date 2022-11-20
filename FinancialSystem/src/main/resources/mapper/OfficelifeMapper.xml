@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 资产管理表 -->
+<mapper namespace="com.lq.financial.mapper.AcceListMapper">
+
+    <!-- 1、查询-模糊查询  -->
+    <select id="selectAllByLike" resultType="com.lq.financial.pojo.AcceList">
+        SELECT * FROM accelist
+        <if test="query != null and query != ''">
+            where title like concat('%',#{query},'%')
+        </if>
+    </select>
+
+    <!-- 2、查询-精确查询 -->
+    <select id="selectAllByAll" resultType="com.lq.financial.pojo.AcceList">
+        SELECT * FROM accelist
+        <if test="query != null and query != ''">
+            where title = #{query}
+        </if>
+    </select>
+
+</mapper>
