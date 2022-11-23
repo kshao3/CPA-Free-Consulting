@@ -1,15 +1,41 @@
-# CPA-Free-Consulting
+# Summary
+This project is used as a platform for the financial & legal consulting purpose, on which upload & download documents 
+and user forums will be permitted
+ 
+# Languages & Tools
+Front-end：Vue 2.0 <br/>
+Framework：Element-UI <br/>
+Back-end：Java <br/>
+Framework：SpringBoot 2.3.7、MyBatis-Plus、Redis <br/>
+Database：Mysql 5.0 <br/>
+Tools：IntellJ IDEA 2019,Webyog SQLyog,VS Code
+Cloud：Alibaba Cloud OSS
+    
+# Further-reading
+The system adopts the MVC three-tier architecture idea for development, and adopts the efficient front-end and back-end
+separating techniques for deployment. The advantage of this method is when back-end cloud host is down, the front-end
+cloud host can still provide page access. 
 
-# Description: 
-More than just a great reference, this website provides accounting, financial reporting, tax solutions and more to solve business challenges and set you up for long-term success. Offering access to ask unlimited questions answered by experienced CPAs with in-depth skills and credentials, $.com provides a flexible business model that gives you accurate information when you check them.
+# Other techniques
+Redis cache: when the user clicks the mailbox to send the verification code,it will cache the verification code in Redis,
+and the cache expiration time is set to one minute.
+Ikaptcha verification code: display a graphic verification code when logging in to prevent crawlers from hacking.
+Alibaba Cloud OSS storage: when a user uploads an attachment, the file will be saved in OSS, and the file will be 
+downloaded from OSS.
+JWTToken: It is a token technology. When the user logs in successfully, a token  will be generated. When accessing other 
+interfaces, the token will be used to access the interface.
 
-# Partner: 
-Jiayi Gu,
-Kaijie Shao
-
-# Languages & Tools: 
-Language: Javascript (front-end), Java (back-end), MySQL (database)
-Tools: Visual Studio Code, IntellJ IDEA, MySQL Workbench
-Framework for Javascript: Vue
+# Example
+Login Page
+![image](readmeimg\one.jpg)
+Upload a document
+![image](readmeimg\two.jpg)
 
 
+# Database deisgn
+![image](readmeimg\three.jpg)
+
+# In the Future
+In the later stage, I am planning to add corresponding payment functions, which can make the website have a source of 
+income, and also add corresponding advertising modules, so it to attract investors to come and invest in advertising. 
+Most likely,I will also consider to add a message module that allows users to leave messages and comments on each other.
