@@ -27,10 +27,9 @@ interfaces, the token will be used to access the interface.
 
 # Example
 Login Page
-![image](FinancialSystem\readmeimg\one.jpg)
+![one](https://user-images.githubusercontent.com/68679933/203466223-31ca3501-7889-4e18-8501-35b50e5db8f1.jpg)
 Upload a document
-![image](readmeimg\two.jpg)
-
+![two](https://user-images.githubusercontent.com/68679933/203466261-f30ed373-8743-4c38-a1e3-c8e98bb86a8e.jpg)
 
 # Database deisgn
 ![image](readmeimg\three.jpg)
