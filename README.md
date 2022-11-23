@@ -1,6 +1,10 @@
 # Summary
 This project is used as a platform for the financial & legal consulting purpose, on which upload & download documents 
 and user forums will be permitted
+
+# Team members:
+- Kaijie Shao   email: kshao3@dons.usfca.edu
+- Jiayi Gu      email: jgu3@mail.sfsu.edu
  
 # Languages & Tools
 Front-end：Vue 2.0 <br/>
