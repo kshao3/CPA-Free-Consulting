@@ -27,7 +27,7 @@ interfaces, the token will be used to access the interface.
 
 # Example
 Login Page
-![image](readmeimg\one.jpg)
+![image](FinancialSystem\readmeimg\one.jpg)
 Upload a document
 ![image](readmeimg\two.jpg)
 
