@@ -33,9 +33,6 @@ Login Page
 Upload a document
 ![two](https://user-images.githubusercontent.com/68679933/203466261-f30ed373-8743-4c38-a1e3-c8e98bb86a8e.jpg)
 
-# Database deisgn
-![image](readmeimg\three.jpg)
-
 # In the Future
 In the later stage, I am planning to add corresponding payment functions, which can make the website have a source of 
 income, and also add corresponding advertising modules, so it to attract investors to come and invest in advertising. 
